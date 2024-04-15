@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'PartialSansKR-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/PartialSansKR-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background-color: black;
+    color: white;
+}
+.nav-bar {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    cursor: pointer;
+}
+.menu {
+    list-style: none;
+    display: flex;
+}
+li{
+    margin: 0 14px;
+}
+li:hover {
+    color: orange;
+    cursor: pointer;
+}
+.kit {
+    color: orange;
+    cursor: pointer;
+}
+.main {
+    width: 100%;
+    height: 100%;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.line {
+    border-top: 2px solid rgb(58, 58, 58);
+}
+.street-culture, .travel, .fine-art, .luxury {
+    font-family: 'PartialSansKR-Regular';
+    font-size: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.streetculture-img, .travel-img, .fineart-img, .luxury-img {
+    opacity: 1;
+    height: 115px;
+    margin: 0 14px;
+    z-index: 0;
+    position: relative;
+}
+.culture {
+    right: 105px;
+    background-color: black;
+    z-index: 9;
+    position: relative;
+}
+.street {
+    left: 103px;
+    background-color: black;
+    z-index: 9;
+    position: relative;
+}
+.tra {
+    left: 102px;
+    background-color: black;
+    z-index: 9;
+    position: relative;
+}
+.vel {
+    right: 98px;
+    background-color: black;
+    z-index: 9;
+    position: relative;
+}
+
+.fine {
+    left: 102px;
+    background-color: black;
+    z-index: 9;
+    position: relative;
+}
+.art {
+    right: 98px;
+    background-color: black;
+    z-index: 9;
+    position: relative;
+}
+.lux {
+    left: 102px;
+    background-color: black;
+    z-index: 9;
+    position: relative;
+}
+.ury {
+    right: 98px;
+    background-color: black;
+    z-index: 9;
+    position: relative;
+}
