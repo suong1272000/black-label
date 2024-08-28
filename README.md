@@ -1,5 +1,6 @@
 ## GSAP CSS 애니메이션 웹페이지
 GSAP을 학습하며 hover CSS 애니메이션 웹페이지를 제작했습니다.
+https://suong1272000.github.io/black-label/
 
 ## Preview
 ![screencapture-suong1272000-github-io-black-label-2024-08-28-14_15_24](https://github.com/user-attachments/assets/ba0f4c84-a9dd-490b-96ee-ad62bdaf8902)
